@@ -7,7 +7,7 @@ The Speech Emotion Recognizer (SER) project aims to classify speech signals into
 ## Features
 - **Audio Preprocessing**: Normalizes and converts audio files into spectrograms.
 - **Feature Extraction**: Utilizes Mel Spectrograms for extracting features from audio data.
-- **Emotion Classification**: Implements a multi-class SVM classifier to categorize emotions.
+- **Emotion Classification**: Implements a CNN Model to categorize emotions.
 - **Model Evaluation**: Provides performance metrics to evaluate the classifier.
 
 ## Installation
@@ -30,7 +30,7 @@ Pandas
 The project uses the Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS). Please download the dataset from RAVDESS and place it in the data directory.
 
 ## Results
-The trained SVM classifier achieves a notable accuracy in recognizing emotions from speech, with detailed performance metrics provided in the evaluation phase.
+The trained CNN model achieves a notable accuracy in recognizing emotions from speech, with detailed performance metrics provided in the evaluation phase.
 
 Acknowledgements
 The RAVDESS dataset creators for providing the audio data.
